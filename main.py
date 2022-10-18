@@ -1,4 +1,4 @@
-from msilib import init_database
+# from msilib import init_database
 import matplotlib.pyplot as plt
 from random import randint
 from random import seed
