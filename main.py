@@ -25,7 +25,7 @@ random_max = 8
 def genRandom():
     return randint(1, random_max)
 
-def checkHistory(num):
+def checkHistory(num):  
     if len(history["vals"]) > 10:
         history["indices"].pop(0)
         history["vals"].pop(0)
